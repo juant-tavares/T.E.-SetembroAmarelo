@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="pt-br" data-bs-theme="auto">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sobre</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .btn-bd-primary {
+      --bd-violet-bg: #ffdd00;
+      /* Fundo amarelo */
+      --bd-violet-rgb: 255, 221, 0;
+      --bs-btn-font-weight: 600;
+      --bs-btn-color: var(--bs-white);
+      --bs-btn-bg: var(--bd-violet-bg);
+      --bs-btn-border-color: var(--bd-violet-bg);
+      --bs-btn-hover-color: var(--bs-white);
+      --bs-btn-hover-bg: #e0c200;
+      /* Fundo amarelo mais escuro para hover */
+      --bs-btn-hover-border-color: #e0c200;
+      --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+      --bs-btn-active-color: var(--bs-btn-hover-color);
+      --bs-btn-active-bg: #c8a700;
+      /* Fundo amarelo mais escuro para estado ativo */
+      --bs-btn-active-border-color: #c8a700;
+    }
+
+    /* Estilo do link ativo */
+    .nav-pills .nav-link.active {
+      background-color: #ffdd00;
+      /* Fundo amarelo */
+      color: #000;
+      /* Texto preto */
+    }
+
+    /* Estilo dos links */
+    .nav-pills .nav-link {
+      color: #ffdd00;
+      /* Texto amarelo */
+    }
+
+    /* Estilo dos links ao passar o mouse */
+    .nav-pills .nav-link:hover {
+      color: #e0c200;
+      /* Texto amarelo mais escuro */
+    }
+
+    /* Make the whole page take at least the full viewport height */
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+    }
+
+    /* Wrapper to push footer to the bottom */
+    .content-wrapper {
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Header styles */
+    header {
+      background-color: #333;
+      /* Fundo escuro */
+      color: #ffdd00;
+      /* Texto amarelo */
+    }
+
+    /* Footer wrapper styles */
+    .footer-wrapper {
+      background-color: #f0e68c;
+      /* Amarelo mais escuro */
+      width: 100%;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      text-align: center;
+    }
+
+    /* Estilo para espaçamento entre itens */
+    .footer-wrapper .col-md {
+      margin-bottom: 1.5rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="content-wrapper">
+    <!-- Header -->
+    <header class="d-flex justify-content-center py-3">
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="index.html" class="nav-link">Página Principal</a></li>
+        <li class=" nav-item"><a href="sobre.html" class="nav-link active" aria-current="page">Sobre</a></li>
+        <li class="nav-item"><a href="prevencao.html" class="nav-link">Prevenção</a></li>
+        <li class="nav-item"><a href="ajuda.html" class="nav-link">Ajuda</a></li>
+        <li class="nav-item"><a href="motivacao.html" class="nav-link">Motivação e Depoimentos</a></li>
+      </ul>
+    </header>
+
+    <!-- Main content of the page -->
+    <main class="flex-grow-1">
+      <div class="container">
+        <br><br>
+        <h1>História do Setembro Amarelo</h1><br>
+        <p>Setembro Amarelo é uma campanha brasileira de prevenção ao suicídio, iniciada em 2015. O mês de setembro foi escolhido para a campanha porque, desde 2003, o dia 10 de setembro é o Dia Mundial de Prevenção do Suicídio.</p>
+        <p>Ao contrário de outras campanhas como o Dezembro Vermelho e o Outubro Rosa, o Setembro Amarelo não é reconhecido oficialmente em âmbito nacional por meio de lei federal. Contudo, esse reconhecimento já ocorreu localmente em estados, como em Santa Catarina em 2018, e em vários municípios, que instituíram oficialmente a campanha.</p>
+        <p>Durante o mês da campanha, costuma-se iluminar locais públicos com a cor amarela. Por exemplo, em 2015 foram iluminados o Cristo Redentor (RJ), o Congresso Nacional (DF), o Estádio Beira Rio (RS), entre outros. A ideia é promover eventos que abram espaço para debates sobre suicídio e divulgar o tema alertando a população sobre a importância de sua discussão.</p>
+        <br><br>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <div class="footer-wrapper">
+        <footer class="py-3">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md">
+                <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+                  <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                    <use xlink:href="#bootstrap"></use>
+                  </svg>
+                </a>
+                <strong class="d-block mb-3 text-body-secondary">Contribuintes</strong>
+              </div>
+  
+              <div class="col-md">
+                <h5>Ana Kesia</h5>
+                <!--Coloquem os links de suas redes sociais-->
+                <ul class="list-unstyled text-small">
+                  <li><a class="text-body-secondary" href="https://github.com/AnaKesiaSantos/" target="_blank">GitHub</a>
+                  </li>
+                  <li><a class="text-body-secondary" href="https://www.linkedin.com/in/ana-kesia-santos-084030288"
+                      target="_blank">Linkedin</a></li>
+                  <li><a class="text-body-secondary" href="https://www.instagram.com/eu_anakesia"
+                      target="_blank">Instagram</a></li>
+                </ul>
+              </div>
+  
+              <div class="col-md">
+                <h5>Juan</h5>
+                <ul class="list-unstyled text-small">
+                  <li><a class="text-body-secondary" href="https://github.com/juan-tavares/" target="_blank">GitHub</a>
+                  </li>
+                  <li><a class="text-body-secondary" href="https://www.linkedin.com/in/juan-tavares-21400724a"
+                      target="_blank">Linkedin</a></li>
+                  <li><a class="text-body-secondary" href="https://www.instagram.com/juan_lirio01/"
+                      target="_blank">Instagram</a></li>
+                </ul>
+              </div>
+  
+              <div class="col-6 col-md">
+                <h5>Rodrigo</h5>
+                <ul class="list-unstyled text-small">
+                  <li><a class="text-body-secondary" href="https://github.com/Umrods/" target="_blank">GitHub</a></li>
+                  <li><a class="text-body-secondary" href="https://instagram.com.br/umrods/" target="_blank">Instagram</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </footer>
+      </div>
+    </div>
+    </div>
+    </footer>
+    </div>
+    </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
